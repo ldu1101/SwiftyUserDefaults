@@ -32,6 +32,7 @@
 		C1EF5E679553F49B4C163561 /* SwiftyUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = B134969522555B348C06FD6C /* SwiftyUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC4CF6A63F6AA1B932D6757E /* DefaultsBridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA39F1E25782FDC1CFC36 /* DefaultsBridges.swift */; };
 		D102C1011A4314AFF773DCD5 /* Defaults+StringToBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDEA0BD7078D2633741F60 /* Defaults+StringToBool.swift */; };
+		E5231E442BC7D968008DBCB4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E5231E422BC7D968008DBCB4 /* PrivacyInfo.xcprivacy */; };
 		EA37551964DBE6344BC4178A /* Defaults+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494A812C2386E7351405E72 /* Defaults+URL.swift */; };
 		ED39909122B0204E0046F502 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39909022B0204E0046F502 /* DefaultsKeys.swift */; };
 		ED9D95BF22AD74630006FE67 /* DefaultsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D95BD22AD74630006FE67 /* DefaultsAdapter.swift */; };
@@ -74,6 +75,7 @@
 		CB55DC75BF69CEA7DB03750E /* BuiltIns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltIns.swift; path = Sources/BuiltIns.swift; sourceTree = "<group>"; };
 		CBE434F1CEE20652BC414284 /* Defaults+FrogCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+FrogCodable.swift"; path = "Tests/SwiftyUserDefaultsTests/External types/Defaults+FrogCodable.swift"; sourceTree = "<group>"; };
 		D0EE0402DB7DB637D79FEC2B /* TestHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestHelper.swift; path = Tests/SwiftyUserDefaultsTests/TestHelpers/TestHelper.swift; sourceTree = "<group>"; };
+		E5231E422BC7D968008DBCB4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E57735ECA0C2F413E8EBC2E4 /* Defaults+Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Bool.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+Bool.swift"; sourceTree = "<group>"; };
 		ED39909022B0204E0046F502 /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultsKeys.swift; path = Sources/DefaultsKeys.swift; sourceTree = "<group>"; };
 		ED9D95BD22AD74630006FE67 /* DefaultsAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultsAdapter.swift; path = Sources/DefaultsAdapter.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				ED39909022B0204E0046F502 /* DefaultsKeys.swift */,
 				9701991125BC1345631E831E /* DefaultsObserver.swift */,
 				F98C7EF97445788836162CD0 /* DefaultsSerializable.swift */,
+				E5231E432BC7D968008DBCB4 /* Resources */,
 				6C48B95D407E4F720507F3D8 /* Info.plist */,
 				85096B65E07A3BC7F856F0D1 /* OptionalType.swift */,
 				858E15CF231FEC2F00DC1418 /* PropertyWrappers.swift */,
@@ -189,6 +192,15 @@
 				2C65AD74F5B4ACA76F7FCA8E /* SwiftyUserDefaultsTests */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		E5231E432BC7D968008DBCB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5231E422BC7D968008DBCB4 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = Sources/Resources;
 			sourceTree = "<group>";
 		};
 		ECEEA08FA9788F3518C84E77 /* Frameworks */ = {
@@ -300,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5231E442BC7D968008DBCB4 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
